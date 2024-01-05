@@ -14,4 +14,4 @@ apply_links = [footer.find_all("a", class_="card-footer-item")[1]['href'] for fo
 
 
 for title, date_posted, apply_link in zip(titles, dates_posted, apply_links):
-    print(f"*{title.text} -> {date_posted.text} ( {apply_link} )")
+    print(f"*{title.text} -> {date_posted.text} \n ( {apply_link} )")
